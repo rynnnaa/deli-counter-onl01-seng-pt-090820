@@ -18,6 +18,6 @@ katz_deli = []
     end
     
     def now_serving(katz_deli)
-      puts "The fuc"
+      puts "There is nobody waiting to be served!"
     end
   end
