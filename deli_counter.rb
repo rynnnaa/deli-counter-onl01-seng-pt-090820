@@ -22,5 +22,6 @@ katz_deli = []
         puts "There is nobody waiting to be served!"
       else
         puts "Currently serving #{katz_deli}."
+      end
     end
   end
