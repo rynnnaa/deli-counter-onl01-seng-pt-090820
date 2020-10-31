@@ -16,6 +16,7 @@ katz_deli = []
       katz_deli << name
       katz_deli.each.with_index(1) do |name, idx|
         puts "Welcome, #{name}. You are number #{idx} in line."
+        binding.pry
       end
     end
   end
