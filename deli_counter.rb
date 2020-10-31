@@ -8,6 +8,7 @@ katz_deli = []
     else
       katz_deli.each.with_index(1) do |person, idx|
         line.push("The line is currently: #{idx}. #{person}")
+        line.join("")
       end
     end
   end
