@@ -9,7 +9,7 @@ katz_deli = []
       katz_deli.each.with_index(1) do |person, idx|
         line.push("#{idx}. #{person}")
       end
-        puts "The line is currently: #{}"
+        puts "The line is currently: #{line.join(" ")}"
       end
     
     def take_a_number(katz_deli, name)
@@ -21,7 +21,7 @@ katz_deli = []
       if katz_deli.empty?
         puts "There is nobody waiting to be served!"
       else
-        puts "Currently serving #{katz_deli.join}."
+        puts "Currently serving #{katz_deli[1]}."
       end
     end
   end
