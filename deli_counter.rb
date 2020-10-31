@@ -13,9 +13,7 @@ katz_deli = []
     end
     
     def take_a_number(katz_deli, name)
-      katz_deli << name
-      puts "Welcome, #{name}. You are number 1 in line."
+      katz_deli.each.with_index(1) |idx, name|
+      puts "Welcome, #{name}. You are number #{idx} in line."
     end
-      
-      
   end
